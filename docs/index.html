@@ -1774,6 +1774,210 @@
 
       </div>
 
+      <section
+  class="section panel map-panel"
+  id="map"
+>
+
+  <div class="map-heading">
+
+    <div class="map-heading-left">
+
+      <span class="section-tag">
+        Provincial labour market
+      </span>
+
+      <h2 class="section-title">
+        Employment movement across South Africa
+      </h2>
+
+      <p class="section-description">
+        Change in the number of employed people by province
+        between Q4 2024 and Q1 2025.
+        Select a province to investigate the movement in more detail.
+      </p>
+
+    </div>
+
+
+    <div class="province-filter">
+
+      <label for="provinceSelect">
+        Province
+      </label>
+
+      <select id="provinceSelect">
+
+        <option value="all">
+          All provinces
+        </option>
+
+        <option value="Western Cape">
+          Western Cape
+        </option>
+
+        <option value="Gauteng">
+          Gauteng
+        </option>
+
+        <option value="Free State">
+          Free State
+        </option>
+
+        <option value="KwaZulu-Natal">
+          KwaZulu-Natal
+        </option>
+
+        <option value="Eastern Cape">
+          Eastern Cape
+        </option>
+
+        <option value="North West">
+          North West
+        </option>
+
+        <option value="Limpopo">
+          Limpopo
+        </option>
+
+        <option value="Mpumalanga">
+          Mpumalanga
+        </option>
+
+        <option value="Northern Cape">
+          Northern Cape
+        </option>
+
+      </select>
+
+    </div>
+
+  </div>
+
+
+  <div class="map-legend">
+
+    <span class="legend-item">
+
+      <span class="legend-dot increase"></span>
+
+      Employment increase
+
+    </span>
+
+    <span class="legend-item">
+
+      <span class="legend-dot decrease"></span>
+
+      Employment decrease
+
+    </span>
+
+  </div>
+
+
+  <div id="saEmploymentMap"></div>
+
+
+  <!-- SELECTED PROVINCE ANALYSIS -->
+
+  <div
+    class="province-analysis"
+    id="provinceAnalysis"
+  >
+
+    <div class="province-analysis-heading">
+
+      <div>
+
+        <span class="analysis-small">
+          Selected view
+        </span>
+
+        <h3 id="selectedProvinceName">
+          South Africa provincial overview
+        </h3>
+
+      </div>
+
+      <span
+        class="movement-badge"
+        id="movementBadge"
+      >
+        9 provinces
+      </span>
+
+    </div>
+
+
+    <div class="province-metrics">
+
+      <div class="province-metric">
+
+        <small>
+          Employment movement
+        </small>
+
+        <strong id="selectedChange">
+          —
+        </strong>
+
+      </div>
+
+
+      <div class="province-metric">
+
+        <small>
+          Provincial rank
+        </small>
+
+        <strong id="selectedRank">
+          —
+        </strong>
+
+      </div>
+
+
+      <div class="province-metric">
+
+        <small>
+          Difference from median
+        </small>
+
+        <strong id="selectedMedianDifference">
+          —
+        </strong>
+
+      </div>
+
+    </div>
+
+
+    <div class="generated-insight">
+
+      <div class="insight-title">
+        Insight from this view
+      </div>
+
+      <p id="provinceInsight">
+        Select a province above to investigate its employment
+        movement relative to the other provinces.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <p class="map-source">
+    Provincial values represent Q1 2025 labour-market context
+    covering all employed persons rather than Gen Z employees
+    specifically. Source: Statistics South Africa Quarterly
+    Labour Force Survey reporting.
+  </p>
+
+</section>
+
 
       <p class="map-source">
         Provincial values are Q1 2025 labour-market context
