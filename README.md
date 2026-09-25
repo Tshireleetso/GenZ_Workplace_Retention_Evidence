@@ -1,8 +1,8 @@
 # Gen Z Workplace Retention Evidence Review
 
-## Request
+## Idea
 
-The request was to look at the disconnect between Gen Z employees and employers, with South Africa as the main context, and turn the published evidence into a clear management view.
+The idea was to look at the disconnect between Gen Z employees and employers, with South Africa as the main context, and turn the published evidence into a clear management view.
 
 The starting point was the IOL Cape Argus article published on 24 June 2026:
 
